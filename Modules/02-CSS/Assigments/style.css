@@ -1,0 +1,23 @@
+.breadcrumb {  
+  padding: 1rem;
+  background-color: orange;
+  list-style: none;
+}
+
+.breadcrumb li {
+  display: inline;
+}
+
+.breadcrumb li a {
+  color: white;
+}
+
+.user-profile::before{
+  content: "/";
+  color: black;
+  padding: 0.5rem;
+}
+
+/* add a CSS selector that selects all list elements except for 1st one */
+/* add "/" before each selected list  */
+/* add text color and padding */
